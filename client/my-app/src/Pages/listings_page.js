@@ -113,6 +113,7 @@ const ListingsPage = (props) => {
                             } 
                             : calculatedCenter}
                         expandedListings={expandedListingId ? [expandedListingId] : []}
+                        onMarkerClick={setExpandedListingId}
                         />
 
                 </div>
