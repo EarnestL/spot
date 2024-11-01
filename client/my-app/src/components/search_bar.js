@@ -113,7 +113,7 @@ const SearchBar = (props) => {
             type="text"
             id="location"
             placeholder="Search location"
-            className="focus:outline-none text-gray-500 text-sm"
+            className="focus:outline-none text-black text-sm"
             value={locationInput}
             autoComplete="off"
             onChange={(e) => setLocationInput(e.target.value)}
