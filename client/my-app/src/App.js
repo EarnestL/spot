@@ -67,7 +67,7 @@ function App() {
 
 
   return (
-    <div className="App p-10 h-full w-full">
+    <div className="App p-10 h-full w-full overflow-hidden">
       <Router>
         <Navbar
           profileToggled={profileToggled}
